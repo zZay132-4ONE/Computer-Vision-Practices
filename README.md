@@ -1,4 +1,11 @@
 [English Doc](README_en.md)
+
+# 源项目
+
+> 地址：
+>
+> https://github.com/vipstone/faceai
+
 # 功能 #
 
 1. 人脸检测、识别（图片、视频）
@@ -10,10 +17,6 @@
 7. 视频对象提取
 8. 图片修复（可用于水印去除）
 9. 图片自动上色
-10. 眼动追踪（待完善）
-11. 换脸（待完善）
-
-**查看功能预览↓↓↓**
 
 # 开发环境 #
 
@@ -68,106 +71,3 @@
 
 [使用鼠标绘图——OpenCV](https://github.com/vipstone/faceai/blob/master/doc/opencv/mouse.md)
 
-
-# 功能预览 #
-
-**绘制脸部轮廓**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png" width = "250" height = "300" alt="绘制脸部轮廓" />
-
-----------
-
-**人脸68个关键点标识**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/dlib68.png" width = "230" height = "300" alt="人脸68个关键点标识" />
-
-----------
-
-**头像特效合成**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/compose.png" width = "200" height = "300" alt="头像特效合成"  />
-
-----------
-
-**性别识别**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/gender.png" width = "430" height = "220" alt="性别识别"  />
-
-----------
-
-**表情识别**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/emotion.png" width = "250" height = "300" alt="表情识别"  />
-
-----------
-
-**数字化妆**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup-1.png" width = "450" height = "300" alt="视频人脸识别"  />
-
-----------
-
-**视频人脸检测**
-
-![](https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif)
-
-----------
-
-**视频人脸识别**
-
-![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
-
-----------
-
-**视频人脸识别**
-
-![](http://icdn.apigo.cn/opencv-hsv.gif)
-
-----------
-
-**图片修复**
-
-![](http://icdn.apigo.cn/inpaint.png?2)
-
-----------
-
-**图片自动上色**
-
-![](http://icdn.apigo.cn/colorize-faceai.png)
-
-----------
-
-# 技术方案 #
-
-技术实现方案介绍
-
-	人脸识别：OpenCV / Dlib
-	
-	人脸检测：face_recognition
-	
-	性别识别：keras + tensorflow
-	
-	文字识别：Tesseract OCR
-
-
-### TODO ###
-
-换脸——待完善
-
-眼睛移动方向检测——待完善
-
-Dlib性能优化方案
-
-Dlib模型训练方法
-
-Tesseract模型训练方法
-
-# 贡献者名单（特别感谢）	
-
-[archersmind](https://github.com/archersmind)	
-	
-[rishab-sharma](https://github.com/rishab-sharma)
-
-# 微信打赏
-
-![微信打赏](http://icdn.apigo.cn/myinfo/wchat-pay.png)

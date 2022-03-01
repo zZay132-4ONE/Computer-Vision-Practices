@@ -1,6 +1,12 @@
 Translation for English Documentations are Working In Progress
 
-# Functions #
+# Source Project
+
+> Address:
+>
+> https://github.com/vipstone/faceai
+
+# Functions
 
 1. Face Detection and Recognition（From Image or Video）
 2. Facial Landmark
@@ -67,102 +73,3 @@ Translation for English Documentations are Working In Progress
 
 [Mouse Drawing——Based on OpenCV](doc-en/opencv/mouse.md)
 
-
-# Preview #
-
-**Face Outline Recognition**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png" width = "250" height = "300" alt="绘制脸部轮廓" />
-
-----------
-
-**68-point Facial Landmark Detection**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/dlib68.png" width = "230" height = "300" alt="人脸68个关键点标识" />
-
-----------
-
-**Image Compositing**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/compose.png" width = "200" height = "300" alt="头像特效合成"  />
-
-----------
-
-**Gender Recognition**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/gender.png" width = "430" height = "220" alt="性别识别"  />
-
-----------
-
-**Emotion Recognition**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/emotion.png" width = "250" height = "300" alt="表情识别"  />
-
-----------
-
-**Face Makeup**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup-1.png" width = "450" height = "300" alt="视频人脸识别"  />
-
-----------
-
-**Face Detection From Video**
-
-![](https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif)
-
-----------
-
-**Face Recognition From Video**
-
-![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
-
-----------
-
-**Face Recognition From Video**
-
-![](http://icdn.apigo.cn/opencv-hsv.gif)
-
-----------
-
-**Image Denoising**
-
-![](http://icdn.apigo.cn/inpaint.png?2)
-
-----------
-
-**Image Colorization**
-
-![](http://icdn.apigo.cn/colorize-faceai.png)
-
-----------
-
-# Background #
-
-Requirements
-
-	Face Recognition ：OpenCV / Dlib / face_recognition
-	
-	Gender Recognition：keras + tensorflow
-	
-	Text Recognition：Tesseract OCR
-
-
-### TODO ###
-
-Face Replacement——W.I.P
-
-Eye Tracking——W.I.P
-
-Dlib Performance Optimization
-
-Dlib Model Training
-
-Tesseract Model Training
-
-
-
-# Contributor
-
-[archersmind](https://github.com/archersmind)
-
-[rishab-sharma](https://github.com/rishab-sharma)
